@@ -21,4 +21,3 @@ For classification tasks:
 python train_mdi.py --task "class" uci --data [DATASET]
 ```
 Add ``` --pre_train ``` if you want to apply pre-trained weights.
-"# MissGNN" 
