@@ -1,0 +1,1340 @@
+# energy (3, 0)
+    params = {
+        "epochs_mdi": 2600,
+        "epochs_y": 2600,
+        "lr": 0.002,
+        "n_subsets": 3,
+        "overlap": 0.,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": "128",
+        "node_dim": 64,
+        "edge_dim": 128,
+        "impute_hiddens": "256",
+        "predict_hiddens": "64"
+    }
+
+# energy (3, 0.25)
+    params = {
+        "epochs_mdi": 2800,
+        "epochs_y": 3000,
+        "lr": 0.002,
+        "n_subsets": 3,
+        "overlap": 0.25,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 32,
+        "edge_dim": 96,
+        "impute_hiddens": "32",
+        "predict_hiddens": "32"
+    }
+
+# energy (3, 0.75)
+    params = {
+        "epochs_mdi": 3200,
+        "epochs_y": 3200,
+        "lr": 0.002,
+        "n_subsets": 3,
+        "overlap": 0.75,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 128,
+        "edge_dim": 128,
+        "impute_hiddens": "32",
+        "predict_hiddens": "64"
+    }
+
+# yacht (3, 0)
+    params = {
+        "epochs_mdi": 2000,
+        "epochs_y": 1600,
+        "lr": 0.0015,
+        "n_subsets": 3,
+        "overlap": 0.,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 96,
+        "edge_dim": 64,
+        "impute_hiddens": "64",
+        "predict_hiddens": "256"
+    }
+
+# yacht (3, 0.25)
+    params = {
+        "epochs_mdi": 2000,
+        "epochs_y": 1800,
+        "lr": 0.002,
+        "n_subsets": 3,
+        "overlap": 0.25,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "128",
+        "node_dim": 32,
+        "edge_dim": 64,
+        "impute_hiddens": "32",
+        "predict_hiddens": "32"
+    }
+
+# yacht (3, 0.5)
+    params = {
+        "epochs_mdi": 1800,
+        "epochs_y": 2000,
+        "lr": 0.0015,
+        "n_subsets": 3,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "256",
+        "node_dim": 96,
+        "edge_dim": 128,
+        "impute_hiddens": "32",
+        "predict_hiddens": "32"
+    }
+
+# yacht (3, 0.75)
+    params = {
+        "epochs_mdi": 1800,
+        "epochs_y": 1800,
+        "lr": 0.002,
+        "n_subsets": 3,
+        "overlap": 0.75,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": "256",
+        "node_dim": 128,
+        "edge_dim": 128,
+        "impute_hiddens": "64",
+        "predict_hiddens": "256"
+    }
+
+# machine (3, 0)
+    params = {
+        "epochs_mdi": 1800,
+        "epochs_y": 2800,
+        "lr": 0.001,
+        "n_subsets": 3,
+        "overlap": 0.,
+        "model_types": "EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 64,
+        "edge_dim": 128,
+        "impute_hiddens": "128",
+        "predict_hiddens": "256"
+    }
+
+# machine (3, 0.25)
+    params = {
+        "epochs_mdi": 1800,
+        "epochs_y": 2800,
+        "lr": 0.001,
+        "n_subsets": 3,
+        "overlap": 0.25,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": "256",
+        "node_dim": 128,
+        "edge_dim": 32,
+        "impute_hiddens": "128",
+        "predict_hiddens": "256"
+    }
+
+# machine (3, 0.5)
+    params = {
+        "epochs_mdi": 2000,
+        "epochs_y": 2400,
+        "lr": 0.002,
+        "n_subsets": 3,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": "128",
+        "node_dim": 64,
+        "edge_dim": 96,
+        "impute_hiddens": "64",
+        "predict_hiddens": "256"
+    }
+
+# machine (3, 0.75)
+    params = {
+        "epochs_mdi": 1800,
+        "epochs_y": 2800,
+        "lr": 0.0015,
+        "n_subsets": 3,
+        "overlap": 0.75,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 128,
+        "edge_dim": 128,
+        "impute_hiddens": "256",
+        "predict_hiddens": "256"
+    }
+
+# airfoil (3, 0)
+    params = {
+        "epochs_mdi": 2200,
+        "epochs_y": 2400,
+        "lr": 0.002,
+        "n_subsets": 3,
+        "overlap": 0.,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 32,
+        "edge_dim": 128,
+        "impute_hiddens": "256",
+        "predict_hiddens": ""
+    }
+
+# airfoil(3, 0.25)
+    params = {
+        "epochs_mdi": 2200,
+        "epochs_y": 1800,
+        "lr": 0.001,
+        "n_subsets": 3,
+        "overlap": 0.25,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "128",
+        "node_dim": 128,
+        "edge_dim": 64,
+        "impute_hiddens": "32",
+        "predict_hiddens": ""
+    }
+
+# airfoil (3, 0.5)
+    params = {
+        "epochs_mdi": 2000,
+        "epochs_y": 2000,
+        "lr": 0.001,
+        "n_subsets": 3,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": "128",
+        "node_dim": 32,
+        "edge_dim": 96,
+        "impute_hiddens": "64",
+        "predict_hiddens": "256"
+    }
+
+# airfoil (3, 0.75)
+    params = {
+        "epochs_mdi": 2400,
+        "epochs_y": 2200,
+        "lr": 0.0005,
+        "n_subsets": 3,
+        "overlap": 0.75,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 32,
+        "edge_dim": 32,
+        "impute_hiddens": "256",
+        "predict_hiddens": "128"
+    }
+
+# stock (3, 0)
+    params = {
+        "epochs_mdi": 3400,
+        "epochs_y": 1600,
+        "lr": 0.002,
+        "n_subsets": 3,
+        "overlap": 0.,
+        "model_types": "EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 96,
+        "edge_dim": 96,
+        "impute_hiddens": "256",
+        "predict_hiddens": ""
+    }
+
+# stock (3, 0.25)
+    params = {
+        "epochs_mdi": 3200,
+        "epochs_y": 1400,
+        "lr": 0.001,
+        "n_subsets": 3,
+        "overlap": 0.25,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 32,
+        "edge_dim": 32,
+        "impute_hiddens": "128",
+        "predict_hiddens": "128"
+    }
+
+# stock (3, 0.5)
+    params = {
+        "epochs_mdi": 3600,
+        "epochs_y": 1600,
+        "lr": 0.001,
+        "n_subsets": 3,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": "128",
+        "node_dim": 64,
+        "edge_dim": 32,
+        "impute_hiddens": "256",
+        "predict_hiddens": "32"
+    }
+
+# stock (3, 0.75)
+    params = {
+        "epochs_mdi": 3200,
+        "epochs_y": 1400,
+        "lr": 0.002,
+        "n_subsets": 3,
+        "overlap": 0.75,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "265",
+        "node_dim": 128,
+        "edge_dim": 32,
+        "impute_hiddens": "32",
+        "predict_hiddens": ""
+    }
+
+# intrusion (3, 0)
+    params = {
+        "epochs_mdi": 3000,
+        "epochs_y": 2600,
+        "lr": 0.0015,
+        "n_subsets": 3,
+        "overlap": 0.,
+        "model_types": "EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 96,
+        "edge_dim": 64,
+        "impute_hiddens": "256",
+        "predict_hiddens": "64"
+    }
+
+# intrusion (3, 0.25)
+    params = {
+        "epochs_mdi": 2600,
+        "epochs_y": 2400,
+        "lr": 0.0015,
+        "n_subsets": 3,
+        "overlap": 0.25,
+        "model_types": "EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 32,
+        "edge_dim": 64,
+        "impute_hiddens": "128",
+        "predict_hiddens": "256"
+    }
+
+# intrusion (3, 0.5)
+    params = {
+        "epochs_mdi": 3000,
+        "epochs_y": 2400,
+        "lr": 0.002,
+        "n_subsets": 3,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": "256",
+        "node_dim": 64,
+        "edge_dim": 96,
+        "impute_hiddens": "32",
+        "predict_hiddens": "128"
+    }
+
+# intrusion (3, 0.75)
+    params = {
+        "epochs_mdi": 2400,
+        "epochs_y": 2400,
+        "lr": 0.001,
+        "n_subsets": 3,
+        "overlap": 0.75,
+        "model_types": "EGSAGE",
+        "post_hiddens": "32",
+        "node_dim": 128,
+        "edge_dim": 32,
+        "impute_hiddens": "128",
+        "predict_hiddens": "256"
+    }
+
+-----------------------------------------------
+
+# music (3, 0)
+    params = {
+        "epochs_mdi": 1600,
+        "epochs_y": 1600,
+        "lr": 0.0005,
+        "n_subsets": 3,
+        "overlap": 0.,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": "32",
+        "node_dim": 64,
+        "edge_dim": 32,
+        "impute_hiddens": "64",
+        "predict_hiddens": "64"
+    }
+
+# music(3, 0.25)
+    params = {
+        "epochs_mdi": 1200,
+        "epochs_y": 1800,
+        "lr": 0.001,
+        "n_subsets": 3,
+        "overlap": 0.25,
+        "model_types": "EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 64,
+        "edge_dim": 64,
+        "impute_hiddens": "256",
+        "predict_hiddens": "256"
+    }
+
+# music (3, 0.5)
+    params = {
+        "epochs_mdi": 1800,
+        "epochs_y": 1800,
+        "lr": 0.002,
+        "n_subsets": 3,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "256",
+        "node_dim": 96,
+        "edge_dim": 128,
+        "impute_hiddens": "",
+        "predict_hiddens": "256"
+    }
+
+# music (3, 0.75)
+    params = {
+        "epochs_mdi": 1800,
+        "epochs_y": 1800,
+        "lr": 0.0015,
+        "n_subsets": 3,
+        "overlap": 0.75,
+        "model_types": "EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 128,
+        "edge_dim": 64,
+        "impute_hiddens": "64",
+        "predict_hiddens": "256"
+    }
+
+# cancer (3, 0)
+    params = {
+        "epochs_mdi": 2400,
+        "epochs_y": 1200,
+        "lr": 0.0005,
+        "n_subsets": 3,
+        "overlap": 0.,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 32,
+        "edge_dim": 32,
+        "impute_hiddens": "32",
+        "predict_hiddens": "32"
+    }
+
+# cancer (3, 0.25)
+    params = {
+        "epochs_mdi": 2600,
+        "epochs_y": 1200,
+        "lr": 0.0015,
+        "n_subsets": 3,
+        "overlap": 0.25,
+        "model_types": "EGSAGE",
+        "post_hiddens": "128",
+        "node_dim": 128,
+        "edge_dim": 64,
+        "impute_hiddens": "128",
+        "predict_hiddens": ""
+    }
+
+# cancer (3, 0.5)
+    params = {
+        "epochs_mdi": 2000,
+        "epochs_y": 800,
+        "lr": 0.0005,
+        "n_subsets": 3,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "256",
+        "node_dim": 64,
+        "edge_dim": 32,
+        "impute_hiddens": "64",
+        "predict_hiddens": "256"
+    }
+
+# cancer (3, 0.75)
+    params = {
+        "epochs_mdi": 2600,
+        "epochs_y": 800,
+        "lr": 0.0015,
+        "n_subsets": 3,
+        "overlap": 0.75,
+        "model_types": "EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 128,
+        "edge_dim": 128,
+        "impute_hiddens": "128",
+        "predict_hiddens": "64"
+    }
+
+# transfusion (3, 0)
+    params = {
+        "epochs_mdi": 2200,
+        "epochs_y": 1400,
+        "lr": 0.0005,
+        "n_subsets": 3,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": "32",
+        "node_dim": 32,
+        "edge_dim": 32,
+        "impute_hiddens": "128",
+        "predict_hiddens": "128"
+    }
+
+# transfusion (3, 0.25)
+    params = {
+        "epochs_mdi": 2200,
+        "epochs_y": 1600,
+        "lr": 0.0005,
+        "n_subsets": 3,
+        "overlap": 0.25,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 32,
+        "edge_dim": 128,
+        "impute_hiddens": "32",
+        "predict_hiddens": "64"
+    }
+
+# transfusion (3, 0.5)
+    params = {
+        "epochs_mdi": 2000,
+        "epochs_y": 1400,
+        "lr": 0.001,
+        "n_subsets": 3,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 32,
+        "edge_dim": 64,
+        "impute_hiddens": "32",
+        "predict_hiddens": ""
+    }
+
+# transfusion (3, 0.75)
+    params = {
+        "epochs_mdi": 2200,
+        "epochs_y": 1400,
+        "lr": 0.0005,
+        "n_subsets": 3,
+        "overlap": 0.75,
+        "model_types": "EGSAGE",
+        "post_hiddens": "32",
+        "node_dim": 32,
+        "edge_dim": 32,
+        "impute_hiddens": "128",
+        "predict_hiddens": "128"
+    }
+
+# phoneme (3, 0)
+    params = {
+        "epochs_mdi": 2200,
+        "epochs_y": 1800,
+        "lr": 0.001,
+        "n_subsets": 3,
+        "overlap": 0.,
+        "model_types": "EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 64,
+        "edge_dim": 32,
+        "impute_hiddens": "128",
+        "predict_hiddens": "32"
+    }
+
+# phoneme (3, 0.25)
+    params = {
+        "epochs_mdi": 2400,
+        "epochs_y": 1800,
+        "lr": 0.0015,
+        "n_subsets": 3,
+        "overlap": 0.25,
+        "model_types": "EGSAGE",
+        "post_hiddens": "256",
+        "node_dim": 64,
+        "edge_dim": 96,
+        "impute_hiddens": "128",
+        "predict_hiddens": "128"
+    }
+
+# phoneme (3, 0.5)
+    params = {
+        "epochs_mdi": 2000,
+        "epochs_y": 1600,
+        "lr": 0.002,
+        "n_subsets": 3,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 64,
+        "edge_dim": 96,
+        "impute_hiddens": "32",
+        "predict_hiddens": "128"
+    }
+
+# phoneme (3, 0.75)
+    params = {
+        "epochs_mdi": 2200,
+        "epochs_y": 2000,
+        "lr": 0.001,
+        "n_subsets": 3,
+        "overlap": 0.75,
+        "model_types": "EGSAGE",
+        "post_hiddens": "256",
+        "node_dim": 96,
+        "edge_dim": 32,
+        "impute_hiddens": "128",
+        "predict_hiddens": ""
+    }
+
+# exasens (3, 0)
+    params = {
+        "epochs_mdi": 1600,
+        "epochs_y": 1200,
+        "lr": 0.0015,
+        "n_subsets": 3,
+        "overlap": 0.,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": "256",
+        "node_dim": 128,
+        "edge_dim": 64,
+        "impute_hiddens": "256",
+        "predict_hiddens": ""
+    }
+
+# exasens (3, 0)
+    params = {
+        "epochs_mdi": 1600,
+        "epochs_y": 1200,
+        "lr": 0.0015,
+        "n_subsets": 3,
+        "overlap": 0.,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": "256",
+        "node_dim": 128,
+        "edge_dim": 64,
+        "impute_hiddens": "256",
+        "predict_hiddens": ""
+    }
+
+# exasens (3, 0.25)
+    params = {
+        "epochs_mdi": 1800,
+        "epochs_y": 1000,
+        "lr": 0.0015,
+        "n_subsets": 3,
+        "overlap": 0.25,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 32,
+        "edge_dim": 128,
+        "impute_hiddens": "",
+        "predict_hiddens": "128"
+    }
+
+# exasens (3, 0.5)
+    # params = {
+    #     "epochs_mdi": 1400,
+    #     "epochs_y": 1200,
+    #     "lr": 0.002,
+    #     "n_subsets": 3,
+    #     "overlap": 0.5,
+    #     "model_types": "EGSAGE",
+    #     "post_hiddens": "64",
+    #     "node_dim": 32,
+    #     "edge_dim": 128,
+    #     "impute_hiddens": "256",
+    #     "predict_hiddens": ""
+    # }
+
+# exasens (3, 0.75)
+    params = {
+        "epochs_mdi": 1800,
+        "epochs_y": 1000,
+        "lr": 0.001,
+        "n_subsets": 3,
+        "overlap": 0.75,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 128,
+        "edge_dim": 32,
+        "impute_hiddens": "256",
+        "predict_hiddens": ""
+    }
+
+# vertebral (3, 0)
+    params = {
+        "epochs_mdi": 1200,
+        "epochs_y": 1000,
+        "lr": 0.002,
+        "n_subsets": 3,
+        "overlap": 0.,
+        "model_types": "EGSGAE_EGSAGE_EGSAGE",
+        "post_hiddens": "256",
+        "node_dim": 32,
+        "edge_dim": 128,
+        "impute_hiddens": "128",
+        "predict_hiddens": "256"
+    }
+
+# vertebral (3, 0.25)
+    params = {
+        "epochs_mdi": 1600,
+        "epochs_y": 1400,
+        "lr": 0.001,
+        "n_subsets": 3,
+        "overlap": 0.25,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 96,
+        "edge_dim": 64,
+        "impute_hiddens": "64",
+        "predict_hiddens": ""
+    }
+
+# vertebral (3, 0.5)
+    params = {
+        "epochs_mdi": 1200,
+        "epochs_y": 1600,
+        "lr": 0.0005,
+        "n_subsets": 3,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 64,
+        "edge_dim": 96,
+        "impute_hiddens": "",
+        "predict_hiddens": "128"
+    }
+
+# vertebral(3, 0.75)
+    params = {
+        "epochs_mdi": 1400,
+        "epochs_y": 1600,
+        "lr": 0.0015,
+        "n_subsets": 3,
+        "overlap": 0.75,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "128",
+        "node_dim": 32,
+        "edge_dim": 32,
+        "impute_hiddens": "128",
+        "predict_hiddens": ""
+    }
+
+# forest (3, 0)
+    params = {
+        "epochs_mdi": 1600,
+        "epochs_y": 1000,
+        "lr": 0.002,
+        "n_subsets": 3,
+        "overlap": 0.,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "256",
+        "node_dim": 128,
+        "edge_dim": 128,
+        "impute_hiddens": "256",
+        "predict_hiddens": "32"
+    }
+
+# forest (3, 0.25)
+    params = {
+        "epochs_mdi": 1600,
+        "epochs_y": 1200,
+        "lr": 0.002,
+        "n_subsets": 3,
+        "overlap": 0.25,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 96,
+        "edge_dim": 32,
+        "impute_hiddens": "",
+        "predict_hiddens": "256"
+    }
+
+# forest (3, 0.75)
+    params = {
+        "epochs_mdi": 1600,
+        "epochs_y": 1400,
+        "lr": 0.002,
+        "n_subsets": 3,
+        "overlap": 0.75,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 128,
+        "edge_dim": 96,
+        "impute_hiddens": "128",
+        "predict_hiddens": "128"
+    }
+
+# wholesale (3, 0)
+    params = {
+        "epochs_mdi": 2600,
+        "epochs_y": 800,
+        "lr": 0.0005,
+        "n_subsets": 3,
+        "overlap": 0.,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 64,
+        "edge_dim": 64,
+        "impute_hiddens": "32",
+        "predict_hiddens": "32"
+    }
+
+# wholesale (3, 0.25)
+    params = {
+        "epochs_mdi": 2600,
+        "epochs_y": 800,
+        "lr": 0.002,
+        "n_subsets": 3,
+        "overlap": 0.25,
+        "model_types": "EGSAGE",
+        "post_hiddens": "32",
+        "node_dim": 32,
+        "edge_dim": 96,
+        "impute_hiddens": "32",
+        "predict_hiddens": ""
+    }
+
+# wholesale (3, 0.5)
+    params = {
+        "epochs_mdi": 2600,
+        "epochs_y": 600,
+        "lr": 0.0005,
+        "n_subsets": 3,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 96,
+        "edge_dim": 32,
+        "impute_hiddens": "64",
+        "predict_hiddens": "128"
+    }
+
+# wholesale (3, 0.75)
+    params = {
+        "epochs_mdi": 2000,
+        "epochs_y": 600,
+        "lr": 0.0015,
+        "n_subsets": 3,
+        "overlap": 0.75,
+        "model_types": "EGSAGE",
+        "post_hiddens": "32",
+        "node_dim": 128,
+        "edge_dim": 96,
+        "impute_hiddens": "",
+        "predict_hiddens": "64"
+    }
+
+------------------------------------------------------------------------
+
+# energy (1, 0.5)
+    params = {
+        "epochs_mdi": 2400,
+        "epochs_y": 2200,
+        "lr": 0.001,
+        "n_subsets": 1,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 32,
+        "edge_dim": 128,
+        "impute_hiddens": "256",
+        "predict_hiddens": ""
+    }
+
+# energy (2, 0.5)
+    params = {
+        "epochs_mdi": 1800,
+        "epochs_y": 2200,
+        "lr": 0.002,
+        "n_subsets": 2,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 128,
+        "edge_dim": 64,
+        "impute_hiddens": "128",
+        "predict_hiddens": ""
+    }
+
+# energy (4, 0.5)
+    params = {
+        "epochs_mdi": 2000,
+        "epochs_y": 2400,
+        "lr": 0.0015,
+        "n_subsets": 4,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": "128",
+        "node_dim": 96,
+        "edge_dim": 32,
+        "impute_hiddens": "128",
+        "predict_hiddens": "128"
+    }
+
+# yacht (1, 0.5)
+    params = {
+        "epochs_mdi": 2400,
+        "epochs_y": 2200,
+        "lr": 0.0015,
+        "n_subsets": 1,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": "32",
+        "node_dim": 32,
+        "edge_dim": 128,
+        "impute_hiddens": "32",
+        "predict_hiddens": "128"
+    }
+
+# yacht (2, 0.5)
+    params = {
+        "epochs_mdi": 2200,
+        "epochs_y": 2000,
+        "lr": 0.002,
+        "n_subsets": 2,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "256",
+        "node_dim": 32,
+        "edge_dim": 32,
+        "impute_hiddens": "64",
+        "predict_hiddens": ""
+    }
+
+# yacht (4, 0.5)
+    params = {
+        "epochs_mdi": 1800,
+        "epochs_y": 2000,
+        "lr": 0.0005,
+        "n_subsets": 4,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 64,
+        "edge_dim": 64,
+        "impute_hiddens": "",
+        "predict_hiddens": "256"
+    }
+
+# machine (2, 0.5)
+    params = {
+        "epochs_mdi": 2200,
+        "epochs_y": 2800,
+        "lr": 0.001,
+        "n_subsets": 2,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 128,
+        "edge_dim": 32,
+        "impute_hiddens": "256",
+        "predict_hiddens": ""
+    }
+
+# machine (4, 0.5)
+    params = {
+        "epochs_mdi": 1800,
+        "epochs_y": 3000,
+        "lr": 0.001,
+        "n_subsets": 4,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 32,
+        "edge_dim": 128,
+        "impute_hiddens": "128",
+        "predict_hiddens": "256"
+    }
+
+# airfoil (2, 0.5)
+    params = {
+        "epochs_mdi": 2200,
+        "epochs_y": 2400,
+        "lr": 0.0005,
+        "n_subsets": 2,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 128,
+        "edge_dim": 64,
+        "impute_hiddens": "64",
+        "predict_hiddens": "64"
+    }
+
+# airfoil (4, 0.5)
+    params = {
+        "epochs_mdi": 2000,
+        "epochs_y": 2200,
+        "lr": 0.001,
+        "n_subsets": 4,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": "256",
+        "node_dim": 64,
+        "edge_dim": 64,
+        "impute_hiddens": "32",
+        "predict_hiddens": ""
+    }
+
+# stock (1, 0.5)
+    params = {
+        "epochs_mdi": 3000,
+        "epochs_y": 1600,
+        "lr": 0.002,
+        "n_subsets": 1,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 64,
+        "edge_dim": 96,
+        "impute_hiddens": "128",
+        "predict_hiddens": "256"
+    }
+
+# stock (4, 0.5)
+    params = {
+        "epochs_mdi": 3200,
+        "epochs_y": 1600,
+        "lr": 0.0005,
+        "n_subsets": 4,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": "128",
+        "node_dim": 128,
+        "edge_dim": 64,
+        "impute_hiddens": "128",
+        "predict_hiddens": "256"
+    }
+
+# intrusion (1, 0.5)
+    params = {
+        "epochs_mdi": 2600,
+        "epochs_y": 2400,
+        "lr": 0.0015,
+        "n_subsets": 1,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 32,
+        "edge_dim": 64,
+        "impute_hiddens": "128",
+        "predict_hiddens": "256"
+    }
+
+# intrusion (2, 0.5)
+    params = {
+        "epochs_mdi": 2600,
+        "epochs_y": 2400,
+        "lr": 0.0015,
+        "n_subsets": 2,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 32,
+        "edge_dim": 64,
+        "impute_hiddens": "128",
+        "predict_hiddens": "256"
+    }
+
+# intrusion (4, 0.5)
+    params = {
+        "epochs_mdi": 2600,
+        "epochs_y": 2800,
+        "lr": 0.002,
+        "n_subsets": 4,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 32,
+        "edge_dim": 32,
+        "impute_hiddens": "64",
+        "predict_hiddens": ""
+    }
+
+-----------------------------------------------
+
+# music (1, 0.5)
+    params = {
+        "epochs_mdi": 1200,
+        "epochs_y": 1800,
+        "lr": 0.002,
+        "n_subsets": 1,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 96,
+        "edge_dim": 96,
+        "impute_hiddens": "64",
+        "predict_hiddens": "64"
+    }
+
+# music (2, 0.5)
+    params = {
+        "epochs_mdi": 1600,
+        "epochs_y": 1600,
+        "lr": 0.0005,
+        "n_subsets": 2,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 32,
+        "edge_dim": 128,
+        "impute_hiddens": "32",
+        "predict_hiddens": "256"
+    }
+
+# cancer (1, 0.5)
+    params = {
+        "epochs_mdi": 2400,
+        "epochs_y": 1000,
+        "lr": 0.0005,
+        "n_subsets": 1,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "256",
+        "node_dim": 96,
+        "edge_dim": 96,
+        "impute_hiddens": "256",
+        "predict_hiddens": "32"
+    }
+
+# cancer (2, 0.5)
+    params = {
+        "epochs_mdi": 2400,
+        "epochs_y": 800,
+        "lr": 0.0005,
+        "n_subsets": 2,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": "256",
+        "node_dim": 64,
+        "edge_dim": 64,
+        "impute_hiddens": "64",
+        "predict_hiddens": "128"
+    }
+
+# transfusion (2, 0.5)
+    params = {
+        "epochs_mdi": 1800,
+        "epochs_y": 1200,
+        "lr": 0.001,
+        "n_subsets": 2,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": "128",
+        "node_dim": 64,
+        "edge_dim": 32,
+        "impute_hiddens": "",
+        "predict_hiddens": "64"
+    }
+
+# transfusion (4, 0.5)
+    params = {
+        "epochs_mdi": 2200,
+        "epochs_y": 1400,
+        "lr": 0.0005,
+        "n_subsets": 4,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": "32",
+        "node_dim": 32,
+        "edge_dim": 32,
+        "impute_hiddens": "128",
+        "predict_hiddens": "128"
+    }
+
+# phoneme (1, 0.5)
+    params = {
+        "epochs_mdi": 2400,
+        "epochs_y": 1800,
+        "lr": 0.0005,
+        "n_subsets": 1,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 96,
+        "edge_dim": 128,
+        "impute_hiddens": "64",
+        "predict_hiddens": ""
+    }
+
+# phoneme (2, 0.5)
+    params = {
+        "epochs_mdi": 2200,
+        "epochs_y": 2200,
+        "lr": 0.002,
+        "n_subsets": 2,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 64,
+        "edge_dim": 128,
+        "impute_hiddens": "",
+        "predict_hiddens": ""
+    }
+
+# phoneme (4, 0.5)
+    params = {
+        "epochs_mdi": 2200,
+        "epochs_y": 1800,
+        "lr": 0.0005,
+        "n_subsets": 4,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": "32",
+        "node_dim": 128,
+        "edge_dim": 96,
+        "impute_hiddens": "32",
+        "predict_hiddens": "32"
+    }
+
+# exasens (1, 0.5)
+    params = {
+        "epochs_mdi": 1400,
+        "epochs_y": 1000,
+        "lr": 0.002,
+        "n_subsets": 1,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": "256",
+        "node_dim": 64,
+        "edge_dim": 96,
+        "impute_hiddens": "256",
+        "predict_hiddens": "64"
+    }
+
+# exasens (2, 0.5)
+    params = {
+        "epochs_mdi": 1400,
+        "epochs_y": 800,
+        "lr": 0.002,
+        "n_subsets": 2,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": "128",
+        "node_dim": 96,
+        "edge_dim": 64,
+        "impute_hiddens": "256",
+        "predict_hiddens": "32"
+    }
+
+# exasens (4, 0.5)
+    params = {
+        "epochs_mdi": 1800,
+        "epochs_y": 1000,
+        "lr": 0.0005,
+        "n_subsets": 4,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": "32",
+        "node_dim": 96,
+        "edge_dim": 64,
+        "impute_hiddens": "32",
+        "predict_hiddens": "128"
+    }
+
+# vertebral (1, 0.5)
+    params = {
+        "epochs_mdi": 1800,
+        "epochs_y": 1600,
+        "lr": 0.0005,
+        "n_subsets": 1,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": "32",
+        "node_dim": 128,
+        "edge_dim": 32,
+        "impute_hiddens": "128",
+        "predict_hiddens": "128"
+    }
+
+# vertebral (2, 0.5)
+    params = {
+        "epochs_mdi": 1800,
+        "epochs_y": 1000,
+        "lr": 0.001,
+        "n_subsets": 2,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": "128",
+        "node_dim": 32,
+        "edge_dim": 32,
+        "impute_hiddens": "256",
+        "predict_hiddens": "32"
+    }
+
+# vertebral (4, 0.5)
+    params = {
+        "epochs_mdi": 1600,
+        "epochs_y": 1000,
+        "lr": 0.0015,
+        "n_subsets": 4,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 64,
+        "edge_dim": 32,
+        "impute_hiddens": "",
+        "predict_hiddens": "64"
+    }
+
+# forest (1, 0.5)
+    params = {
+        "epochs_mdi": 1800,
+        "epochs_y": 1200,
+        "lr": 0.002,
+        "n_subsets": 1,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "128",
+        "node_dim": 64,
+        "edge_dim": 64,
+        "impute_hiddens": "128",
+        "predict_hiddens": ""
+    }
+
+# forest (2, 0.5)
+    params = {
+        "epochs_mdi": 1400,
+        "epochs_y": 1400,
+        "lr": 0.001,
+        "n_subsets": 2,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE",
+        "post_hiddens": "256",
+        "node_dim": 32,
+        "edge_dim": 128,
+        "impute_hiddens": "32",
+        "predict_hiddens": "32"
+    }
+
+# wholesale (1, 0.5)
+    params = {
+        "epochs_mdi": 2600,
+        "epochs_y": 600,
+        "lr": 0.001,
+        "n_subsets": 1,
+        "overlap": 0.5,
+        "model_types": "EGSAGE_EGSAGE_EGSAGE",
+        "post_hiddens": None,
+        "node_dim": 64,
+        "edge_dim": 128,
+        "impute_hiddens": "",
+        "predict_hiddens": "32"
+    }
+
+# wholesale (2, 0.5)
+    params = {
+        "epochs_mdi": 2400,
+        "epochs_y": 600,
+        "lr": 0.0015,
+        "n_subsets": 2,
+        "overlap": 0.5,
+        "model_types": "EGSAGE",
+        "post_hiddens": "64",
+        "node_dim": 32,
+        "edge_dim": 128,
+        "impute_hiddens": "64",
+        "predict_hiddens": "256"
+    }
