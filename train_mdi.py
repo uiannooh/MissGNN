@@ -57,10 +57,6 @@ def objective(trial):
     args = parser.parse_args()
     print(args)
 
-    # pf 
-    """python train_mdi.py --pre_train uci --data yacht"""
-    """python train_mdi.py --task "class" --pre_train uci --data yacht"""
-
     # select device
     if torch.cuda.is_available():
         cuda = auto_select_gpu()
@@ -72,21 +68,6 @@ def objective(trial):
         print('Using CPU')
         device = torch.device('cpu')
 
-    # params = {
-    #     "epochs_mdi": trial.suggest_int("epochs_mdi", 1400, 2200, step = 200),
-    #     "epochs_y": trial.suggest_int("epochs_y", 1400, 2200, step = 200),
-    #     "lr": trial.suggest_float("lr", 0.0005, 0.002, step = 0.0005),
-    #     "n_subsets": trial.suggest_int("n_subsets", 1, 4, step = 1),
-    #     "overlap": trial.suggest_float("overlap", 0., 0.75, step = 0.25),
-    #     "model_types": trial.suggest_categorical("model_types", ["EGSAGE", "EGSAGE_EGSAGE", "EGSAGE_EGSAGE_EGSAGE"]),
-    #     "post_hiddens": trial.suggest_categorical("post_hiddens", [None, "32", "64", "128", "256"]),
-    #     "node_dim": trial.suggest_int("node_dim", 32, 128, step = 32),
-    #     "edge_dim": trial.suggest_int("edge_dim", 32, 128, step = 32),
-    #     "impute_hiddens": trial.suggest_categorical("impute_hiddens", ["", "32", "64", "128", "256"]),
-    #     "predict_hiddens": trial.suggest_categorical("predict_hiddens", ["", "32", "64", "128", "256"]),
-    # }
-
-    # yacht (3, 0.75)
     params = {
         "epochs_mdi": 1800,
         "epochs_y": 1800,
@@ -100,36 +81,6 @@ def objective(trial):
         "impute_hiddens": "64",
         "predict_hiddens": "256"
     }
-    
-    # stock (1, 0.5)
-    # params = {
-    #     "epochs_mdi": 3000,
-    #     "epochs_y": 1600,
-    #     "lr": 0.002,
-    #     "n_subsets": 1,
-    #     "overlap": 0.5,
-    #     "model_types": "EGSAGE_EGSAGE",
-    #     "post_hiddens": "64",
-    #     "node_dim": 64,
-    #     "edge_dim": 96,
-    #     "impute_hiddens": "128",
-    #     "predict_hiddens": "256"
-    # }
-
-    # exasens (3, 0)
-    # params = {
-    #     "epochs_mdi": 1600,
-    #     "epochs_y": 1200,
-    #     "lr": 0.0015,
-    #     "n_subsets": 3,
-    #     "overlap": 0.,
-    #     "model_types": "EGSAGE_EGSAGE_EGSAGE",
-    #     "post_hiddens": "256",
-    #     "node_dim": 128,
-    #     "edge_dim": 64,
-    #     "impute_hiddens": "256",
-    #     "predict_hiddens": ""
-    # }
 
     from uci.uci_data import load_data
 

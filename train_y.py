@@ -54,14 +54,6 @@ def objective(trial):
     args = parser.parse_args()
     print(args)
 
-    # y
-    """python train_y.py uci --data yacht"""
-    """python train_y.py --task "class" uci --data yacht"""
-
-    # fine-tune y
-    """python train_y.py --pre_train uci --data yacht"""
-    """python train_y.py --pre_train --task "class" uci --data yacht"""
-
     # select device
     if torch.cuda.is_available():
         cuda = auto_select_gpu()
@@ -72,19 +64,6 @@ def objective(trial):
     else:
         print('Using CPU')
         device = torch.device('cpu')
-
-    # params = {
-    #     "epochs_y": trial.suggest_int("epochs_y", 1800, 2400, step = 200),
-    #     "lr": trial.suggest_float("lr", 0.0005, 0.002, step = 0.0005),
-    #     "n_subsets": trial.suggest_int("n_subsets", 1, 4, step = 1),
-    #     "overlap": trial.suggest_float("overlap", 0., 0.75, step = 0.25),
-    #     "model_types": trial.suggest_categorical("model_types", ["EGSAGE", "EGSAGE_EGSAGE", "EGSAGE_EGSAGE_EGSAGE"]),
-    #     "post_hiddens": trial.suggest_categorical("post_hiddens", [None, "32", "64", "128", "256"]),
-    #     "node_dim": trial.suggest_int("node_dim", 32, 128, step = 32),
-    #     "edge_dim": trial.suggest_int("edge_dim", 32, 128, step = 32),
-    #     "impute_hiddens": trial.suggest_categorical("impute_hiddens", ["", "32", "64", "128", "256"]),
-    #     "predict_hiddens": trial.suggest_categorical("predict_hiddens", ["", "32", "64", "128", "256"]),
-    # }
 
     params = {
         "epochs_y": 1600,
